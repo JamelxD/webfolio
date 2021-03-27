@@ -4,10 +4,6 @@ import { Switch, Route } from 'react-router-dom';
 // Route Setting
 import HomePage from "../HomePage";
 import AboutPage from "../AboutPage";
-import PorfolioGrid from "../PorfolioGrid";
-import PorfolioGrid2 from "../PorfolioGrid2";
-import PorfolioGrid3 from "../PorfolioGrid3";
-import PorfolioGrid4 from "../PorfolioGrid4";
 import PorfolioGridCro from "../PorfolioGridCro";
 import ServiceDetails from "../ServiceDetails";
 import ProjectDetails from "../ProjectDetails";
@@ -39,23 +35,7 @@ export default function Routes() {
                 component={AboutPage}
             />
             <PrivateRoute
-                path="/protfolioGrid"
-                component={PorfolioGrid}
-            />
-            <PrivateRoute
-                path="/protfolioGrid2"
-                component={PorfolioGrid2}
-            />
-            <PrivateRoute
-                path="/protfolioMashonary"
-                component={PorfolioGrid3}
-            />
-            <PrivateRoute
-                path="/protfolioList"
-                component={PorfolioGrid4}
-            />
-            <PrivateRoute
-                path="/protfolioCro"
+                path="/portfolio"
                 component={PorfolioGridCro}
             />
             <PrivateRoute

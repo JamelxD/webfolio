@@ -20,6 +20,11 @@
       <change beforePath="$PROJECT_DIR$/src/containers/HomePage7/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomePage8/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomePage9/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PorfolioGrid/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PorfolioGrid2/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PorfolioGrid3/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PorfolioGrid4/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/PorfolioGridCro/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/PorfolioGridCro/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/__Routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/__Routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +94,7 @@
       <workItem from="1615660212333" duration="4637000" />
       <workItem from="1616011643952" duration="864000" />
       <workItem from="1616864032842" duration="477000" />
-      <workItem from="1616864591875" duration="10041000" />
+      <workItem from="1616864591875" duration="11407000" />
     </task>
     <servers />
   </component>

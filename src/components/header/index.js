@@ -16,15 +16,7 @@ const Header = (props) => {
                     <ul>
                         <li><Link className="active" to="/home" title="">Home</Link></li>
                         <li><Link to="/about" title="">About</Link></li>
-                        <li><Link  to="/portfolio">Portfolio</Link>
-                            <ul>
-                                <li><Link to="/protfolioGrid">Portfolio Grid</Link></li>
-                                <li><Link to="/protfolioGrid2">Portfolio Grid-2</Link></li>
-                                <li><Link to="/protfolioMashonary">Portfolio Mashonary</Link></li>
-                                <li><Link to="/protfolioList">Portfolio List</Link></li>
-                                <li><Link to="/protfolioCro">Portfolio Cro</Link></li>
-                            </ul>
-                        </li>
+                        <li><Link to="/portfolio">Portfolio</Link></li>
                         <li><Link to="/">Pages</Link>
                             <ul>
                                 <li><Link to="/about">About</Link></li>
