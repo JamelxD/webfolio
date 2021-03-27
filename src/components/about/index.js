@@ -40,14 +40,14 @@ const AboutWrap = (props) => {
                               Skill
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink
-                                className={classnames({ active: activeTab === '2' })}
-                                onClick={() => { toggle('2'); }}
-                            >
-                                Services
-                            </NavLink>
-                        </NavItem>
+                        {/*<NavItem>*/}
+                        {/*    <NavLink*/}
+                        {/*        className={classnames({ active: activeTab === '2' })}*/}
+                        {/*        onClick={() => { toggle('2'); }}*/}
+                        {/*    >*/}
+                        {/*        Services*/}
+                        {/*    </NavLink>*/}
+                        {/*</NavItem>*/}
                         <NavItem>
                             <NavLink
                                 className={classnames({ active: activeTab === '3' })}
@@ -56,29 +56,29 @@ const AboutWrap = (props) => {
                                Social Media
                             </NavLink>
                         </NavItem>
-                        <NavItem>
-                            <NavLink
-                                className={classnames({ active: activeTab === '4' })}
-                                onClick={() => { toggle('4'); }}
-                            >
-                              Award
-                            </NavLink>
-                        </NavItem>
+                        {/*<NavItem>*/}
+                        {/*    <NavLink*/}
+                        {/*        className={classnames({ active: activeTab === '4' })}*/}
+                        {/*        onClick={() => { toggle('4'); }}*/}
+                        {/*    >*/}
+                        {/*      Award*/}
+                        {/*    </NavLink>*/}
+                        {/*</NavItem>*/}
                     </Nav>
                     <div className="wpo-about-wrap">
                     <TabContent activeTab={activeTab}>
                             <TabPane tabId="1">
                                 <Abmain/>
                             </TabPane>
-                            <TabPane tabId="2">
-                                <AbService/>
-                            </TabPane>
+                            {/*<TabPane tabId="2">*/}
+                            {/*    <AbService/>*/}
+                            {/*</TabPane>*/}
                             <TabPane tabId="3">
                                 <SocialBr/>
                             </TabPane>
-                            <TabPane tabId="4">
-                                <Award/>
-                            </TabPane>
+                            {/*<TabPane tabId="4">*/}
+                            {/*    <Award/>*/}
+                            {/*</TabPane>*/}
                             <TabPane tabId="5">
                                 <Skill/>
                             </TabPane>

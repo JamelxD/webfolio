@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/src/components/Hero1/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero1/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MobileMenu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MobileMenu/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Skill/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skill/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/customMenu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/customMenu/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header2/index.js" afterDir="false" />
@@ -94,7 +95,7 @@
       <workItem from="1615660212333" duration="4637000" />
       <workItem from="1616011643952" duration="864000" />
       <workItem from="1616864032842" duration="477000" />
-      <workItem from="1616864591875" duration="11407000" />
+      <workItem from="1616864591875" duration="12460000" />
     </task>
     <servers />
   </component>
