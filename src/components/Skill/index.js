@@ -8,7 +8,7 @@ const Skill = () => {
                     <div className="wpo-counter-grids">
                         <div className="grid">
                             <div>
-                                <h2><span className="odometer" data-count="75">75</span>%</h2>
+                                <h2><span className="odometer" data-count="75">90</span>%</h2>
                             </div>
                             <p>Communication Skills</p>
                         </div>

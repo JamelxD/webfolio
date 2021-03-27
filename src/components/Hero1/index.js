@@ -11,8 +11,8 @@ const Hero1 = () => {
                 <div className="container">
                     <div className="row">
                         <div className="col col-md-8 slide-caption">
-                            <h2 className="wow fadeInLeftSlow" data-wow-delay="1.0s">I’m <span>John</span> Smith</h2>
-                            <p className="wow fadeInUp" data-wow-delay="1.5s">Freelance UI/UX Designer</p>
+                            <h2 className="wow fadeInLeftSlow" data-wow-delay="1.0s">I’m <span>Jamel</span> Morrison</h2>
+                            <p className="wow fadeInUp" data-wow-delay="1.5s">Freelance Developer</p>
                             <div className="bg-social wow fadeInUp" data-wow-delay="2.0s">
                                 <ul>
                                     <li><Link to="/"><i className="fa fa-facebook"></i></Link></li>

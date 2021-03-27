@@ -13,20 +13,7 @@ const Header2 = (props) => {
                 </div>
                 <nav className="d-lg-block d-none header-b">
                     <ul>
-                        <li><Link className="active" to="/home" title="">Home</Link>
-                            <ul>
-                                <li><Link className="active" to="/home">Home</Link></li>
-                                <li><Link to="/home2">Home-style-2</Link></li>
-                                <li><Link to="/home3">Home-style-3</Link></li>
-                                <li><Link to="/home4">Home-style-4</Link></li>
-                                <li><Link to="/home5">Home-style-5</Link></li>
-                                <li><Link to="/home6">Home-style-6</Link></li>
-                                <li><Link to="/home7">Home-style-7</Link></li>
-                                <li><Link to="/home8">Home-style-8</Link></li>
-                                <li><Link to="/home9">Home-style-9</Link></li>
-                                <li><Link to="/home10">Home-style-10</Link></li>
-                            </ul>
-                        </li>
+                        <li><Link className="active" to="/home" title="">Home</Link></li>
                         <li><Link to="/about" title="">About</Link></li>
                         <li><Link  to="/portfolio">Portfolio</Link>
                             <ul>

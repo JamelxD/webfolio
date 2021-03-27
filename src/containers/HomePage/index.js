@@ -20,7 +20,7 @@ const HomePage =() => {
             <PortfolioSub/>
             <TestSlider/>
             <ContactArea/>
-            <LatestBlog/>
+            {/*<LatestBlog/>*/}
             <Footer ftLogo={Logo}/>
         </Fragment>
     )

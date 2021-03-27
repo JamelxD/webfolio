@@ -8,58 +8,6 @@ const menus = [
         id: 1,
         title: 'Home',
         link: '/home',
-        submenu: [
-            {
-                id: 11,
-                title: 'Home',
-                link: '/home'
-            },
-            {
-                id: 12,
-                title: 'HomePage 2',
-                link: '/home2'
-            },
-            {
-                id: 13,
-                title: 'HomePage 3',
-                link: '/home3'
-            },
-            {
-                id: 15,
-                title: 'HomePage 4',
-                link: '/home4'
-            },
-            {
-                id: 16,
-                title: 'HomePage 5',
-                link: '/home5'
-            },
-            {
-                id: 17,
-                title: 'HomePage 6',
-                link: '/home6'
-            },
-            {
-                id: 18,
-                title: 'HomePage 7',
-                link: '/home7'
-            },
-            {
-                id: 19,
-                title: 'HomePage 8',
-                link: '/home8'
-            },
-            {
-                id: 20,
-                title: 'HomePage 9',
-                link: '/home9'
-            },
-            {
-                id: 21,
-                title: 'HomePage 10',
-                link: '/home10'
-            },
-        ]
     },
     {
         id: 2,
