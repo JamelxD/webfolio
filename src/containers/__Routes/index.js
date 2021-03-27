@@ -43,42 +43,42 @@ export default function Routes() {
                 path="/home"
                 component={HomePage}
             />
-            <PrivateRoute
-                path="/home2"
-                component={HomePage2}
-            />
-            <PrivateRoute
-                path="/home3"
-                component={HomePage3}
-            />
-            <PrivateRoute
-                path="/home4"
-                component={HomePage4}
-            />
-            <PrivateRoute
-                path="/home5"
-                component={HomePage5}
-            />
-            <PrivateRoute
-                path="/home6"
-                component={HomePage6}
-            />
-            <PrivateRoute
-                path="/home7"
-                component={HomePage7}
-            />
-            <PrivateRoute
-                path="/home8"
-                component={HomePage8}
-            />
-            <PrivateRoute
-                path="/home9"
-                component={HomePage9}
-            />
-            <PrivateRoute
-                path="/home10"
-                component={HomePage10}
-            />
+            {/*<PrivateRoute*/}
+            {/*    path="/home2"*/}
+            {/*    component={HomePage2}*/}
+            {/*/>*/}
+            {/*<PrivateRoute*/}
+            {/*    path="/home3"*/}
+            {/*    component={HomePage3}*/}
+            {/*/>*/}
+            {/*<PrivateRoute*/}
+            {/*    path="/home4"*/}
+            {/*    component={HomePage4}*/}
+            {/*/>*/}
+            {/*<PrivateRoute*/}
+            {/*    path="/home5"*/}
+            {/*    component={HomePage5}*/}
+            {/*/>*/}
+            {/*<PrivateRoute*/}
+            {/*    path="/home6"*/}
+            {/*    component={HomePage6}*/}
+            {/*/>*/}
+            {/*<PrivateRoute*/}
+            {/*    path="/home7"*/}
+            {/*    component={HomePage7}*/}
+            {/*/>*/}
+            {/*<PrivateRoute*/}
+            {/*    path="/home8"*/}
+            {/*    component={HomePage8}*/}
+            {/*/>*/}
+            {/*<PrivateRoute*/}
+            {/*    path="/home9"*/}
+            {/*    component={HomePage9}*/}
+            {/*/>*/}
+            {/*<PrivateRoute*/}
+            {/*    path="/home10"*/}
+            {/*    component={HomePage10}*/}
+            {/*/>*/}
             <PrivateRoute
                 path="/about"
                 component={AboutPage}
