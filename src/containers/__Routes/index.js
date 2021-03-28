@@ -3,7 +3,6 @@ import { Switch, Route } from 'react-router-dom';
 
 // Route Setting
 import HomePage from "../HomePage";
-import AboutPage from "../AboutPage";
 import PorfolioGridCro from "../PorfolioGridCro";
 import ContactPage from "../ContactPage";
 
@@ -22,10 +21,6 @@ export default function Routes() {
             <PrivateRoute
                 path="/home"
                 component={HomePage}
-            />
-            <PrivateRoute
-                path="/about"
-                component={AboutPage}
             />
             <PrivateRoute
                 path="/portfolio"

@@ -38,7 +38,7 @@ const ContactArea = (props) => {
                                             </div>
                                         </div>
                                         <div className="info-item">
-                                            <h2>info@edefytheme.com</h2>
+                                            <h2>jamelmorr@gmail.com</h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <img src={contact2} alt=""/>

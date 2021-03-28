@@ -1,11 +1,13 @@
 import React from 'react'
+import moment from "moment";
 
-const Exprience = () => {
+const Experience = () => {
+    const years = moment().diff('2017-09-13', 'years',false);
     return(
         <div className="wpo-exprience-area">
             <div className="exprience-wrap">
                 <div className="exprience-b">
-                    <h2>7</h2>
+                    <h2>{years}</h2>
                     <div className="exprience-s">
                         <span>Years</span>
                         <span>Experience</span>
@@ -16,4 +18,4 @@ const Exprience = () => {
     )
 }
 
-export default Exprience;
+export default Experience;

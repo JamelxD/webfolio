@@ -15,7 +15,6 @@ const Header = (props) => {
                 <nav className="d-lg-block d-none header-b">
                     <ul>
                         <li><Link className="active" to="/home" title="">Home</Link></li>
-                        <li><Link to="/about" title="">About</Link></li>
                         <li><Link to="/portfolio">Portfolio</Link></li>
                         <li><Link to="/contact" title="">Contact</Link></li>
                     </ul>

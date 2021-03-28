@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import Navbar from '../../components/Navbar'
 import Hero1 from '../../components/Hero1'
-import Exprience from '../../components/exprience'
+import Experience from '../../components/exprience'
 import PortfolioSub from '../../components/porfolioSub'
 import ContactArea from '../../components/ContactArea'
 import LatestBlog from '../../components/LatestNews'
@@ -15,7 +15,7 @@ const HomePage =() => {
         <Fragment>
             <Navbar />
             <Hero1/>
-            <Exprience/>
+            <Experience/>
             <AboutWrap/>
             <PortfolioSub/>
             <TestSlider/>
