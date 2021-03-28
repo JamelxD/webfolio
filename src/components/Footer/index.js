@@ -3,6 +3,7 @@ import './style.css'
 import {Link} from 'react-router-dom'
 
 const Footer = (props) => {
+    const year = new Date().getFullYear();
     return(
         <div className={`wpo-footer-area ${props.Ftclass}`}>
             <div className="container">
@@ -36,7 +37,7 @@ const Footer = (props) => {
                 </div>
             </div>
             <div className={`wpo-footer-bottom ${props.Fbclass}`}>
-                <span>© 2020 Follio. All rights reserved</span>
+                <span>© {year} Jamel Morrison. All rights reserved</span>
             </div>
         </div>
     )
