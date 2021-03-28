@@ -1,14 +1,14 @@
 import React, {Fragment} from 'react';
-import Navbar5 from '../../components/Navbar5'
 import Breadcrumbs from '../../components/Breadcrumbs'
 import Footer from '../../components/Footer'
 import ServiceSingle from '../../components/ServiceSingle'
 import FtLogo from '../../images/logo2.png'
+import Navbar from "../../components/Navbar";
 
 const ServiceDetails =() => {
     return(
         <Fragment>
-            <Navbar5/>
+            <Navbar/>
             <Breadcrumbs pageTitle={'Product Design'} pageSub={'Service Details'}/>
             <ServiceSingle/>
             <Footer Ftclass={'wpo-footer-area3'} ftLogo={FtLogo}/>
