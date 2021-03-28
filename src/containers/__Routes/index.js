@@ -5,14 +5,7 @@ import { Switch, Route } from 'react-router-dom';
 import HomePage from "../HomePage";
 import AboutPage from "../AboutPage";
 import PorfolioGridCro from "../PorfolioGridCro";
-import ServiceDetails from "../ServiceDetails";
-import ProjectDetails from "../ProjectDetails";
-import ErroPage from "../404";
 import ContactPage from "../ContactPage";
-import BlogPage from "../BlogPage";
-import BlogDetailsFull from "../BlogFull";
-import BlogDetailsPage from "../BlogDetailsPage";
-import BlogDetailsFullwidth from "../BlogDetailsFullwidth";
 
 // Normal Route
 import PrivateRoute from "../_PrivateRoute";

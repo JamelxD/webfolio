@@ -18,12 +18,12 @@
       <change beforePath="$PROJECT_DIR$/src/components/header/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header2/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header2/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header3/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header3/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/404/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/404/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/404/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/AboutPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/AboutPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/BlogDetailsFullwidth/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BlogDetailsFullwidth/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/BlogDetailsPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BlogDetailsPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/BlogFull/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BlogFull/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/BlogPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/BlogPage/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/BlogDetailsFullwidth/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/BlogDetailsPage/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/BlogFull/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/containers/BlogPage/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/ContactPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/ContactPage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomePage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/HomePage/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/containers/HomePage10/index.js" beforeDir="false" />
@@ -111,7 +111,7 @@
       <workItem from="1615660212333" duration="4637000" />
       <workItem from="1616011643952" duration="864000" />
       <workItem from="1616864032842" duration="477000" />
-      <workItem from="1616864591875" duration="13267000" />
+      <workItem from="1616864591875" duration="13399000" />
     </task>
     <servers />
   </component>
