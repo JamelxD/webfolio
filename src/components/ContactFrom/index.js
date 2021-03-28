@@ -25,7 +25,7 @@ class ContactForm extends Component {
         })
     }
 
-    subimtHandler = (e) => {
+    submitHandler = (e) => {
         e.preventDefault();
 
         const { name,
@@ -36,7 +36,7 @@ class ContactForm extends Component {
             notes, error } = this.state;
 
         if (name === '') {
-            error.name = "Please enter your name";
+            error.forename = "Please enter your first name";
         }
         if (email === '') {
             error.email = "Please enter your email";
@@ -45,7 +45,7 @@ class ContactForm extends Component {
             error.subject = "Please enter your subject";
         }
         if (lastname === '') {
-            error.lastname = "Please enter your Lastname";
+            error.surname = "Please enter your last name";
         }
         if (events === '') {
             error.events = "Select your event list";
@@ -60,7 +60,7 @@ class ContactForm extends Component {
                 error
             })
         }
-        if (error.name === '' && error.email === '' && error.email === '' && error.lastname === '' && error.subject === '' && error.events === '' && error.notes === '') {
+        if (error.forename === '' && error.email === '' && error.email === '' && error.surname === '' && error.subject === '' && error.events === '' && error.notes === '') {
             this.setState({
                 name: '',
                 email: '',
@@ -80,18 +80,18 @@ class ContactForm extends Component {
             error } = this.state;
 
         return(
-            <form onSubmit={this.subimtHandler} className="form">
+            <form onSubmit={this.submitHandler} className="form">
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
-                            <input value={name} onChange={this.changeHandler} type="text" name="name" placeholder="Name"/>
-                            <p>{error.name ? error.name : ''}</p>
+                            <input value={name} onChange={this.changeHandler} type="text" name="name" placeholder="First name"/>
+                            <p>{error.forename ? error.forename : ''}</p>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
-                            <input value={lastname} onChange={this.changeHandler} type="text" name="lastname" placeholder="Lastname"/>
-                            <p>{error.lastname ? error.lastname : ''}</p>
+                            <input value={lastname} onChange={this.changeHandler} type="text" name="lastname" placeholder="Last name"/>
+                            <p>{error.surname ? error.surname : ''}</p>
                         </div>
                     </div>
                     <div className="col-lg-12">
