@@ -18,8 +18,7 @@ const Footer = (props) => {
                             <div className="wpo-footer-menu">
                                 <ul>
                                     <li><Link to="/about">About</Link></li>
-                                    <li><Link to="/protfolio">Portfolio</Link></li>
-                                    <li><Link to="/blog">Blog</Link></li>
+                                    <li><Link to="/portfolio">Portfolio</Link></li>
                                     <li><Link to="/contact">Contact</Link></li>
                                 </ul>
                             </div>
@@ -27,9 +26,8 @@ const Footer = (props) => {
                         <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                             <div className="wpo-footer-social">
                                 <ul>
-                                    <li><Link to="/"><i className="fa fa-facebook"></i></Link></li>
-                                    <li><Link to="/"><i className="fa fa-twitter" aria-hidden="true"></i></Link></li>
-                                    <li><Link to="/"><i className="fa fa-instagram" aria-hidden="true"></i></Link></li>
+                                    <li><a href="https://github.com/JamelxD" target="_blank" rel="noopener noreferrer"><i className="fa fa-github" aria-hidden="true"></i></a></li>
+                                    <li><a href="https://uk.linkedin.com/in/jamel-morrison" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
                                 </ul>
                             </div>
                         </div>

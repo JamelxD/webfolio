@@ -3,8 +3,7 @@ import './style.css'
 import ContactForm from '../ContactFrom'
 
 import contact1 from '../../images/wpo-service/icon5.png' 
-import contact2 from '../../images/wpo-service/icon6.png' 
-import contact3 from '../../images/wpo-service/icon7.png' 
+import contact2 from '../../images/wpo-service/icon6.png'
 
 const ContactArea = (props) => {
     return(
@@ -28,7 +27,7 @@ const ContactArea = (props) => {
                                 <div className="col col-lg-6 col-md-12 col-12">
                                     <div className="wpo-contact-info">
                                         <div className="info-item">
-                                            <h2>25 North Street,Dubai</h2>
+                                            <h2>Shoreditch, London</h2>
                                             <div className="info-wrap">
                                                 <div className="info-icon">
                                                     <img src={contact1} alt=""/>
@@ -45,18 +44,7 @@ const ContactArea = (props) => {
                                                     <img src={contact2} alt=""/>
                                                 </div>
                                                 <div className="info-text">
-                                                    <span>Official Mail</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="info-item">
-                                            <h2>+91 256-987-239</h2>
-                                            <div className="info-wrap">
-                                                <div className="info-icon">
-                                                    <img src={contact3} alt=""/>
-                                                </div>
-                                                <div className="info-text">
-                                                    <span>Official Phone</span>
+                                                    <span>Official Email</span>
                                                 </div>
                                             </div>
                                         </div>

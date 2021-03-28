@@ -15,9 +15,8 @@ const Hero1 = () => {
                             <p className="wow fadeInUp" data-wow-delay="1.5s">Freelance Developer</p>
                             <div className="bg-social wow fadeInUp" data-wow-delay="2.0s">
                                 <ul>
-                                    <li><Link to="/"><i className="fa fa-facebook"></i></Link></li>
-                                    <li><Link to="/"><i className="fa fa-linkedin"></i></Link></li>
-                                    <li><Link to="/"><i className="fa fa-instagram"></i></Link></li>
+                                    <li><a href="https://github.com/JamelxD" target="_blank" rel="noopener noreferrer"><i className="fa fa-github"></i></a></li>
+                                    <li><a href="https://uk.linkedin.com/in/jamel-morrison" target="_blank" rel="noopener noreferrer"><i className="fa fa-linkedin"></i></a></li>
                                 </ul>
                             </div>
                         </div>

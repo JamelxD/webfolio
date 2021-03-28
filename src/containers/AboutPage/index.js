@@ -11,7 +11,7 @@ const AboutPage =() => {
     return(
         <Fragment>
             <Navbar/>
-            <Breadcrumbs pageTitle={'About Us'} pageSub={'About'}/>
+            <Breadcrumbs pageTitle={'About Me'} pageSub={'About'}/>
             <AboutArea3/>
             <MySkill/>
             <ServiceSection serviceclass={'wpo-service-area-4 section-padding'}/>
