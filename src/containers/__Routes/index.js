@@ -39,36 +39,8 @@ export default function Routes() {
                 component={PorfolioGridCro}
             />
             <PrivateRoute
-                path="/serviceDetails"
-                component={ServiceDetails}
-            />
-            <PrivateRoute
-                path="/projectDetails"
-                component={ProjectDetails}
-            />
-            <PrivateRoute
-                path="/404"
-                component={ErroPage}
-            />
-            <PrivateRoute
                 path="/contact"
                 component={ContactPage}
-            />
-            <PrivateRoute
-                path="/blog"
-                component={BlogPage}
-            />
-            <PrivateRoute
-                path="/blogfullwidth"
-                component={BlogDetailsFull}
-            />
-            <PrivateRoute
-                path="/blog-details"
-                component={BlogDetailsPage}
-            />
-            <PrivateRoute
-                path="/blog-details-fullwidth"
-                component={BlogDetailsFullwidth}
             />
             {/* <Route path="/login" component={LoginPage} />
             <Route path="/signup" component={SignupPage} /> */}

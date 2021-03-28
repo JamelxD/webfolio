@@ -17,34 +17,9 @@ const Header = (props) => {
                         <li><Link className="active" to="/home" title="">Home</Link></li>
                         <li><Link to="/about" title="">About</Link></li>
                         <li><Link to="/portfolio">Portfolio</Link></li>
-                        <li><Link to="/">Pages</Link>
-                            <ul>
-                                <li><Link to="/about">About</Link></li>
-                                <li><Link to="/serviceDetails">Service Details</Link></li>
-                                <li><Link to="/projectDetails">Project Details</Link></li>
-                                <li><Link to="/404">404 Page</Link></li>
-                            </ul>
-                        </li>
-                        <li><Link to="/" title="">Blog</Link>
-                            <ul>
-                                <li><Link to="/blog" title="">Blog</Link></li>
-                                <li><Link to="/blogfullwidth" title="">Blog Fullwidth</Link></li>
-                                <li><Link to="/" title="">Blog Details</Link>
-                                    <ul>
-                                        <li><Link to="/blog-details" title="">Blog Details</Link></li>
-                                        <li><Link to="/blog-details-fullwidth" title="">Blog Details Fullwidth</Link></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
                         <li><Link to="/contact" title="">Contact</Link></li>
                     </ul>
                 </nav>
-                <div className="contact">
-                    <div className="cart-search-contact">
-                        <Link to="/contact" className="theme-btn">Lets Talk</Link>
-                    </div>
-                </div>
                 <div className="clearfix"></div>
                 
             </div>
