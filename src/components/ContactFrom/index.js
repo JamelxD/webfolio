@@ -1,19 +1,15 @@
 import React, { Component } from 'react'
-
+import axios from "axios";
 
 class ContactForm extends Component {
-
-
     state = {
-        name: '',
+        firstName: '',
         email: '',
         subject: '',
-        lastname: '',
-        events: '',
-        notes: '',
+        lastName: '',
+        message: '',
         error: {}
     }
-
 
     changeHandler = (e) => {
         const error = this.state.error;
@@ -25,18 +21,20 @@ class ContactForm extends Component {
         })
     }
 
-    submitHandler = (e) => {
+    submitHandler = async (e) => {
         e.preventDefault();
 
-        const { name,
+        const {
+            firstName,
             email,
             subject,
-            lastname,
-            events,
-            notes, error } = this.state;
+            lastName,
+            message,
+            error
+        } = this.state;
 
-        if (name === '') {
-            error.forename = "Please enter your first name";
+        if (firstName === '') {
+            error.firstName = "Please enter your first name";
         }
         if (email === '') {
             error.email = "Please enter your email";
@@ -44,39 +42,52 @@ class ContactForm extends Component {
         if (subject === '') {
             error.subject = "Please enter your subject";
         }
-        if (lastname === '') {
-            error.surname = "Please enter your last name";
+        if (lastName === '') {
+            error.lastName = "Please enter your last name";
         }
-        if (events === '') {
-            error.events = "Select your event list";
+        if (message === '') {
+            error.lastName = "Please enter your message";
         }
-        if (notes === '') {
-            error.notes = "Please enter your note";
-        }
-
 
         if (error) {
             this.setState({
                 error
             })
         }
-        if (error.forename === '' && error.email === '' && error.email === '' && error.surname === '' && error.subject === '' && error.events === '' && error.notes === '') {
+
+        if (error.firstName === '' && error.email === '' && error.email === '' && error.lastName === '' && error.subject === '' && error.message === '') {
+            axios.post('http://localhost:3000/mail', {
+                firstName: firstName,
+                lastName: lastName,
+                email: email,
+                subject: subject,
+                message: message,
+            })
+                .then(function (response) {
+                    alert('Email sent.')
+                    console.log(response);
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
+
             this.setState({
-                name: '',
+                firstName: '',
+                lastName: '',
                 email: '',
                 subject: '',
-                events: '',
-                notes: '',
+                message: '',
                 error: {}
-            })
+            });
         }
-    }
+    };
 
-    render(){
-        const { name,
+    render() {
+        const { firstName,
             email,
             subject,
-            lastname,
+            lastName,
+            message,
             error } = this.state;
 
         return(
@@ -84,14 +95,14 @@ class ContactForm extends Component {
                 <div className="row">
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
-                            <input value={name} onChange={this.changeHandler} type="text" name="name" placeholder="First name"/>
-                            <p>{error.forename ? error.forename : ''}</p>
+                            <input value={firstName} onChange={this.changeHandler} type="text" name="firstName" placeholder="First name"/>
+                            <p>{error.firstName ? error.firstName : ''}</p>
                         </div>
                     </div>
                     <div className="col-lg-6 col-md-12">
                         <div className="form-field">
-                            <input value={lastname} onChange={this.changeHandler} type="text" name="lastname" placeholder="Last name"/>
-                            <p>{error.surname ? error.surname : ''}</p>
+                            <input value={lastName} onChange={this.changeHandler} type="text" name="lastName" placeholder="Last name"/>
+                            <p>{error.lastName ? error.lastName : ''}</p>
                         </div>
                     </div>
                     <div className="col-lg-12">
@@ -108,7 +119,7 @@ class ContactForm extends Component {
                     </div>
                     <div className="col-lg-12">
                         <div className="form-field">
-                            <textarea name="message" placeholder="Message"></textarea>
+                            <textarea value={message} onChange={this.changeHandler} name="message" placeholder="Message"></textarea>
                         </div>
                     </div>
                     <div className="col-lg-12">
@@ -122,4 +133,5 @@ class ContactForm extends Component {
     }
 
 }
-export default  ContactForm;
+
+export default ContactForm;
