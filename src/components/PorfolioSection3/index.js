@@ -2,8 +2,8 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './style.css'
 
-import profolio1 from '../../images/protfolio/img-13.jpg'
-import profolio2 from '../../images/protfolio/img-14.jpg'
+import profolio1 from '../../images/protfolioimg/img-13.jpg'
+import profolio2 from '../../images/protfolioimg/img-14.jpg'
 
 const PorfolioSection3 = ( props ) => {
     return(

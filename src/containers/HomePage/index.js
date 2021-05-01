@@ -19,7 +19,6 @@ const HomePage =() => {
             <AboutWrap/>
             <PortfolioSub/>
             <TestSlider/>
-            <ContactArea/>
             {/*<LatestBlog/>*/}
             <Footer ftLogo={Logo}/>
         </Fragment>

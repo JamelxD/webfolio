@@ -2,10 +2,10 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './style.css'
 
-import profolio1 from '../../images/protfolio/img-1.jpg'
-import profolio2 from '../../images/protfolio/img-2.jpg'
-import profolio3 from '../../images/protfolio/img-3.jpg'
-import profolio4 from '../../images/protfolio/img-4.jpg'
+import profolio1 from '../../images/protfolioimg/bfito.png'
+import profolio2 from '../../images/protfolioimg/img-2.jpg'
+import profolio3 from '../../images/protfolioimg/img-3.jpg'
+import profolio4 from '../../images/protfolioimg/img-4.jpg'
 
 const PortfolioSub = ( props ) => {
     return(
@@ -13,7 +13,7 @@ const PortfolioSub = ( props ) => {
             <div className="container">
                 <div className="col-12">
                     <div className="section-title">
-                        <h2>Portfolio</h2>
+                        <h2>Projects</h2>
                     </div>
                 </div>
                 <div className="row">
@@ -27,8 +27,8 @@ const PortfolioSub = ( props ) => {
                                                 <img src={profolio1} alt=""/>
                                             </div>
                                             <div className="wpo-protfolio-text">
-                                                <h2>Minimalism</h2>
-                                                <span>Illustration . Art Direction</span>
+                                                <h2>Android Development</h2>
+                                                <span>Fitness Android application project using Java / Kotlin</span>
                                                 <Link to="/projectDetails">View Work</Link>
                                             </div>
                                         </div>

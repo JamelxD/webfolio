@@ -96,11 +96,6 @@
     width: unset;
 }
 
-.wpo-testimonial-img img {
-    width: 70px;
-    height: 70px;
-}
-
 .wpo-testimonial-img {
     float: left;
     overflow: hidden;

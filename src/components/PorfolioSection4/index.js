@@ -1,10 +1,10 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
-import profolio1 from '../../images/protfolio/img-9.jpg'
-import profolio2 from '../../images/protfolio/img-10.jpg'
-import profolio3 from '../../images/protfolio/img-11.jpg'
-import profolio4 from '../../images/protfolio/img-12.jpg'
+import profolio1 from '../../images/protfolioimg/img-9.jpg'
+import profolio2 from '../../images/protfolioimg/img-10.jpg'
+import profolio3 from '../../images/protfolioimg/img-11.jpg'
+import profolio4 from '../../images/protfolioimg/img-12.jpg'
 
 const PorfolioSection4 = ( props ) => {
     return(

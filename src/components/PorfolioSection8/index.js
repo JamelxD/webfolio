@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import Gallery_1 from '../../images/protfolio/img-22.jpg';
-import Gallery_2 from '../../images/protfolio/img-23.jpg';
-import Gallery_3 from '../../images/protfolio/img-24.jpg';
-import Gallery_4 from '../../images/protfolio/img-25.jpg';
+import Gallery_1 from '../../images/protfolioimg/img-22.jpg';
+import Gallery_2 from '../../images/protfolioimg/img-23.jpg';
+import Gallery_3 from '../../images/protfolioimg/img-24.jpg';
+import Gallery_4 from '../../images/protfolioimg/img-25.jpg';
 
 import {Link} from 'react-router-dom'
 

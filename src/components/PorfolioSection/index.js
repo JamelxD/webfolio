@@ -2,10 +2,10 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './style.css'
 
-import profolio1 from '../../images/protfolio/img-5.jpg'
-import profolio2 from '../../images/protfolio/img-6.jpg'
-import profolio3 from '../../images/protfolio/img-7.jpg'
-import profolio4 from '../../images/protfolio/img-8.jpg'
+import bg from '../../images/portfol-img/bfit.png'
+import profolio2 from '../../images/protfolioimg/img-6.jpg'
+import profolio3 from '../../images/protfolioimg/img-7.jpg'
+import profolio4 from '../../images/protfolioimg/img-8.jpg'
 
 const PorfolioSection = ( props ) => {
     return(
@@ -24,7 +24,7 @@ const PorfolioSection = ( props ) => {
                                     <div className="">
                                         <div className="wpo-protfolio-single">
                                             <div className="wpo-protfolio-img">
-                                                <img src={profolio1} alt=""/>
+                                                <img src={bg} alt=""/>
                                             </div>
                                             <div className="wpo-protfolio-text">
                                                 <h2>Minimalism</h2>

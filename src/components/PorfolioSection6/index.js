@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import Gallery_1 from '../../images/protfolio/img-5.jpg';
-import Gallery_2 from '../../images/protfolio/img-6.jpg';
-import Gallery_3 from '../../images/protfolio/img-7.jpg';
-import Gallery_4 from '../../images/protfolio/img-8.jpg';
-import Gallery_5 from '../../images/protfolio/img-17.jpg';
-import Gallery_6 from '../../images/protfolio/img-6.jpg';
+import Gallery_1 from '../../images/protfolioimg/img-5.jpg';
+import Gallery_2 from '../../images/protfolioimg/img-6.jpg';
+import Gallery_3 from '../../images/protfolioimg/img-7.jpg';
+import Gallery_4 from '../../images/protfolioimg/img-8.jpg';
+import Gallery_5 from '../../images/protfolioimg/img-17.jpg';
+import Gallery_6 from '../../images/protfolioimg/img-6.jpg';
 import './style.css'
 import {Link} from 'react-router-dom'
 

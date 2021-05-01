@@ -23,10 +23,6 @@ export default function Routes() {
                 component={HomePage}
             />
             <PrivateRoute
-                path="/portfolio"
-                component={PorfolioGridCro}
-            />
-            <PrivateRoute
                 path="/contact"
                 component={ContactPage}
             />

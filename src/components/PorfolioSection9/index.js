@@ -4,9 +4,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import {Link} from 'react-router-dom'
-import prf1 from '../../images/protfolio/img-22.jpg'
-import prf2 from '../../images/protfolio/img-23.jpg'
-import prf3 from '../../images/protfolio/img-24.jpg'
+import prf1 from '../../images/protfolioimg/img-22.jpg'
+import prf2 from '../../images/protfolioimg/img-23.jpg'
+import prf3 from '../../images/protfolioimg/img-24.jpg'
 
 import './style.css'
 
